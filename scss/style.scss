@@ -1,0 +1,17 @@
+//imports base
+@import "base/resets";
+
+//imports components
+@import "components/navbar";
+@import "components/footer";
+
+//imports layout
+@import "layout/contacto";
+@import "layout/promos";
+@import "layout/productos";
+
+
+// Estilos globales comunes a todas las páginas
+
+// Importa los estilos específicos de la página de envíos
+@import "layout/envios";

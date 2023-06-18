@@ -1,0 +1,32 @@
+$main-color: #0e153a; // Color azul oscuro principal
+$secondary-color: #ffffff; // Color de texto
+
+
+// Estilos específicos para la página de envíos
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mapas {
+  background-color: $secondary-color;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+}
+
+h1, h2 {
+  color: $main-color;
+}
+
+footer {
+  background-color: $main-color;
+  padding: 20px;
+  text-align: center;
+  color: $secondary-color;
+}
