@@ -17,11 +17,34 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 20px;
   padding: 20px;
+  position: relative;
   width: 300px;
 }
+.mapas iframe {
+  max-width: 100%;
+}
 
-h1, h2 {
+
+h1 {
   color: $main-color;
+}
+
+.zona { 
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 300px;
+background-color: $secondary-color;
+padding: 10px; 
+margin: 0;
+}
+
+div {
+  padding-top: 30px;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 footer {

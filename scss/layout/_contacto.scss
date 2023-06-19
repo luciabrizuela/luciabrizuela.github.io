@@ -1,0 +1,54 @@
+$main-color: #0e153a; // Color azul oscuro principal
+$secondary-color: #ffffff; // Color de texto
+$blue-light: #aac6e4;
+$blue-dark: #0f2134;
+$blue-medium: #336699;
+$blue-hover: #0044AA;
+$blue-dark1: #112036;
+
+
+// Estilos específicos para la página de contacto
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+h1, h2 {
+  color: $main-color;
+}
+
+footer {
+  background-color: $blue-dark;
+  padding: 20px;
+  text-align: center;
+  color: $secondary-color;
+}
+
+.form {
+    background-color: rgb(39, 55, 101);
+    font-style: italic; 
+    color: $blue-dark1;
+    padding: 50px;
+    margin: 50px;
+    height: 100px;
+    width: 400px;
+    border:10px solid $blue-dark1;
+    overflow: visible;
+    gap: 20px;
+}
+
+
+h1 {
+    color: $blue-dark1 ; 
+    background-color: $blue-medium;
+    text-align: center;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px; }

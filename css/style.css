@@ -1,5 +1,5 @@
 #titulo1 {
-  color: rgb(52, 90, 123);
+  color: rgb(204, 227, 247);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -10,40 +10,52 @@ p {
 }
 
 body {
-  background-color: #E4F1FF;
+  background-color: #aac6e4;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  color: #112036;
+  background-color: #336699;
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
 }
 
 .texto-parrafo {
   display: flex;
   gap: 5px;
   justify-content: space-between;
-}
-
-h1 {
-  color: rgb(33, 32, 73);
-  background-color: rgb(65, 53, 199);
-  text-align: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .perfume {
   padding: 40px;
   width: 350px;
   height: 360px;
-  display: inline-block;
   object-fit: cover;
 }
 
 .parrafo {
-  background-color: rgb(70, 80, 141);
+  background-color: #336699;
   font-style: italic;
-  color: rgb(167, 163, 247);
+  color: #112036;
   padding: 30px;
-  margin-left: 10px;
+  margin: 10px;
   height: 350px;
   width: 600px;
-  border: 10px solid rgb(27, 19, 77);
+  border: 10px solid #112036;
   overflow: visible;
-  display: inline-block;
 }
 
 .productos img {
@@ -51,17 +63,15 @@ h1 {
   height: auto;
 }
 
-.titulo {
-  color: #1D4872;
+.titulo2 {
+  color: #112036;
   background-color: #336699;
   text-align: center;
-  padding: 10px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-}
-
-.h2 {
-  color: #1D4872;
-  text-align: center;
   padding: 10px;
 }
 
@@ -84,7 +94,8 @@ nav {
 
 .productos1 img {
   max-width: 100%;
-  height: auto;
+  height: 400px;
+  margin: 50px;
 }
 
 .encabezado {
@@ -121,6 +132,114 @@ nav {
   border-radius: 4px;
 }
 
+footer {
+  background-color: #0e153a;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #0e153a;
+}
+
+footer {
+  background-color: #0f2134;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.form {
+  background-color: rgb(39, 55, 101);
+  font-style: italic;
+  color: #112036;
+  padding: 50px;
+  margin: 50px;
+  height: 100px;
+  width: 400px;
+  border: 10px solid #112036;
+  overflow: visible;
+  gap: 20px;
+}
+
+h1 {
+  color: #112036;
+  background-color: #336699;
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.uno img {
+  max-width: 100%;
+  height: 400px;
+  margin: 50px;
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+}
+
+.dos img {
+  max-width: 100%;
+  height: 400px;
+  margin: 50px;
+  display: inline-block;
+  width: 70%;
+  vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+  .dos, .uno {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .uno img, .dos img {
+    width: 100%;
+  }
+}
+@media (min-width: 769px) {
+  .dos, .uno {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+h3 {
+  color: #112036;
+  background-color: #336699;
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+h1 {
+  color: #112036;
+  background-color: #336699;
+  text-align: center;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
 main {
   display: flex;
   flex-wrap: wrap;
@@ -134,11 +253,34 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin: 20px;
   padding: 20px;
+  position: relative;
   width: 300px;
 }
 
-h1, h2 {
+.mapas iframe {
+  max-width: 100%;
+}
+
+h1 {
   color: #0e153a;
+}
+
+.zona {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0;
+}
+
+div {
+  padding-top: 30px;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 footer {

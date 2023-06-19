@@ -1,0 +1,15 @@
+$main-color: #0e153a; // Color azul oscuro principal
+$secondary-color: #ffffff; // Color de texto
+$blue-light: #aac6e4;
+$blue-dark: #0f2134;
+$blue-medium: #336699;
+$blue-hover: #0044AA;
+$blue-dark1: #112036;
+
+
+footer {
+    background-color: $main-color;
+    padding: 20px;
+    text-align: center;
+    color: $secondary-color;
+} 
